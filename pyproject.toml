@@ -1,0 +1,27 @@
+[project]
+name = "rag-pro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=0.4.0",
+    "faiss-cpu",
+    "ipykernel",
+    "langchain>=0.3.0,<0.4.0",
+    "langchain-community>=0.3.0,<0.4.0",
+    "langchain-groq",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "matplotlib>=3.10.8",
+    "openpyxl>=3.1.5",
+    "pandas",
+    "pymupdf",
+    "pypdf",
+    "python-dotenv",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers",
+    "tiktoken",
+    "wikipedia>=1.4.0",
+]
